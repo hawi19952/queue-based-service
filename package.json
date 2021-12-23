@@ -18,6 +18,6 @@
   "homepage": "https://github.com/hawi19952/queue-based-service#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "mongodb": "^4.2.2"
+    "mongoose": "^6.1.3"
   }
 }
