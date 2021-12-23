@@ -1,0 +1,19 @@
+{
+  "name": "queue-based-service",
+  "version": "1.0.0",
+  "description": "A service that builds an \"Event-Driven\"-Like Node.js projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawi19952/queue-based-service.git"
+  },
+  "author": "Hawi19952",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawi19952/queue-based-service/issues"
+  },
+  "homepage": "https://github.com/hawi19952/queue-based-service#readme"
+}
