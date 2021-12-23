@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hawi19952/queue-based-service/issues"
   },
-  "homepage": "https://github.com/hawi19952/queue-based-service#readme"
+  "homepage": "https://github.com/hawi19952/queue-based-service#readme",
+  "dependencies": {
+    "mongodb": "^4.2.2"
+  }
 }
