@@ -15,9 +15,9 @@ app.use(express.json())
 
 mongoose.connect(uri, 
     {
-        //useNameUrlParser: true, 
-        //useFindAndModify: false, 
-        //useUnifiedTopology: true
+        useNameUrlParser: true, 
+        useFindAndModify: false, 
+        useUnifiedTopology: true
     }
 );
 
