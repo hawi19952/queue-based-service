@@ -5,7 +5,7 @@ const Router = require('./routes');
 
 //TODO: 1) create a universal string for connection based on user input for env
 
-const uri = process.env.MONGO_URI || 'mongodb://localhost:27017/mydb?retryWrites=true&w=majority'; 
+const uri = process.env.MONGO_URI || 'mongodb://myUserAdmin:password@localhost:27017/dummy_service?authSource=admin&readPreference=primary&appname=mongodb-vscode%200.7.0&ssl=false'; 
 const queueName = process.env.QUEUE_NAME || 'test'; 
 const port = process.env.PORT || '4100'; 
 
@@ -15,9 +15,9 @@ app.use(express.json())
 
 mongoose.connect(uri, 
     {
-        useNameUrlParser: true, 
-        useFindAndModify: false, 
-        useUnifiedTopology: true
+        //useNameUrlParser: true, 
+        //useFindAndModify: false, 
+        //useUnifiedTopology: true
     }
 );
 
